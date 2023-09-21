@@ -1,0 +1,839 @@
+{
+  "map": {
+    "0337471966425cc9fc7b17e3cf37c6d2c3b8e304b69079b18efdaf9fba67ca69": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "279bbbfe54dc006a4b8911e94cc980f91b728b30b7d22ba02b4411a2ab07ac27": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 196
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 197
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 198
+      },
+      "40": {
+        "filename": "Workers.code",
+        "line": 199
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 200
+      },
+      "72": {
+        "filename": "Workers.code",
+        "line": 201
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 202
+      },
+      "96": {
+        "filename": "Workers.code",
+        "line": 205
+      },
+      "112": {
+        "filename": "Workers.code",
+        "line": 206
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 207
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 208
+      },
+      "152": {
+        "filename": "Workers.code",
+        "line": 209
+      },
+      "168": {
+        "filename": "Workers.code",
+        "line": 210
+      },
+      "176": {
+        "filename": "Workers.code",
+        "line": 211
+      },
+      "192": {
+        "filename": "Workers.code",
+        "line": 212
+      },
+      "200": {
+        "filename": "Workers.code",
+        "line": 213
+      },
+      "216": {
+        "filename": "Workers.code",
+        "line": 214
+      },
+      "224": {
+        "filename": "Workers.code",
+        "line": 215
+      },
+      "232": {
+        "filename": "Workers.code",
+        "line": 216
+      },
+      "248": {
+        "filename": "Workers.code",
+        "line": 217
+      },
+      "256": {
+        "filename": "Workers.code",
+        "line": 218
+      },
+      "264": {
+        "filename": "Workers.code",
+        "line": 220
+      },
+      "272": {
+        "filename": "Workers.code",
+        "line": 221
+      },
+      "280": {
+        "filename": "Workers.code",
+        "line": 222
+      },
+      "296": {
+        "filename": "Workers.code",
+        "line": 224
+      },
+      "304": {
+        "filename": "Workers.code",
+        "line": 225
+      },
+      "320": {
+        "filename": "Workers.code",
+        "line": 226
+      },
+      "336": {
+        "filename": "Workers.code",
+        "line": 228
+      },
+      "344": {
+        "filename": "Workers.code",
+        "line": 229
+      },
+      "360": {
+        "filename": "Workers.code",
+        "line": 230
+      },
+      "368": {
+        "filename": "Workers.code",
+        "line": 231
+      },
+      "384": {
+        "filename": "Workers.code",
+        "line": 233
+      },
+      "392": {
+        "filename": "Workers.code",
+        "line": 234
+      },
+      "408": {
+        "filename": "Workers.code",
+        "line": 235
+      },
+      "416": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "432": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "464": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "488": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "512": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "520": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "560": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "568": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "576": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "592": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "608": {
+        "filename": "Workers.code",
+        "line": 237
+      },
+      "624": {
+        "filename": "Workers.code",
+        "line": 238
+      },
+      "632": {
+        "filename": "Workers.code",
+        "line": 239
+      },
+      "648": {
+        "filename": "Workers.code",
+        "line": 240
+      },
+      "656": {
+        "filename": "Workers.code",
+        "line": 241
+      },
+      "672": {
+        "filename": "Workers.code",
+        "line": 242
+      },
+      "688": {
+        "filename": "Workers.code",
+        "line": 243
+      },
+      "696": {
+        "filename": "Workers.code",
+        "line": 244
+      },
+      "712": {
+        "filename": "Workers.code",
+        "line": 247
+      }
+    },
+    "2b021e84c8db6651c013ef947debcd131eb8b2f4b9296926cf323d4b652342d3": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 250
+      },
+      "8": {
+        "filename": "Workers.code",
+        "line": 251
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 252
+      },
+      "64": {
+        "filename": "Workers.code",
+        "line": 253
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 256
+      },
+      "88": {
+        "filename": "Workers.code",
+        "line": 257
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 258
+      },
+      "144": {
+        "filename": "Workers.code",
+        "line": 259
+      }
+    },
+    "4043e1229ff95e4ef317121497bf23878db0d26955508e398d6398011fece9dc": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 22
+      },
+      "8": {
+        "filename": "Workers.code",
+        "line": 23
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 24
+      },
+      "48": {
+        "filename": "Workers.code",
+        "line": 25
+      },
+      "64": {
+        "filename": "Workers.code",
+        "line": 26
+      },
+      "72": {
+        "filename": "Workers.code",
+        "line": 27
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 20
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 20
+      },
+      "104": {
+        "filename": "Workers.code",
+        "line": 34
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 37
+      },
+      "128": {
+        "filename": "Workers.code",
+        "line": 38
+      },
+      "144": {
+        "filename": "Workers.code",
+        "line": 41
+      }
+    },
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 97
+      }
+    },
+    "631fd702c6f153f460beec62e637f6f89e9374edb6aa1a0fe10d6bedc7c39d61": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 129
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 130
+      },
+      "32": {
+        "filename": "Workers.code",
+        "line": 131
+      },
+      "48": {
+        "filename": "Workers.code",
+        "line": 132
+      },
+      "64": {
+        "filename": "Workers.code",
+        "line": 133
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 134
+      },
+      "88": {
+        "filename": "Workers.code",
+        "line": 135
+      },
+      "104": {
+        "filename": "Workers.code",
+        "line": 136
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 137
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 138
+      },
+      "144": {
+        "filename": "Workers.code",
+        "line": 139
+      },
+      "152": {
+        "filename": "Workers.code",
+        "line": 140
+      },
+      "160": {
+        "filename": "Workers.code",
+        "line": 141
+      },
+      "168": {
+        "filename": "Workers.code",
+        "line": 142
+      },
+      "176": {
+        "filename": "Workers.code",
+        "line": 143
+      },
+      "184": {
+        "filename": "Workers.code",
+        "line": 144
+      },
+      "192": {
+        "filename": "Workers.code",
+        "line": 145
+      }
+    },
+    "6b989fb76e1f2ca1b24c62080ac656a950c879edc6b0992f0307512a05c5ab7d": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 87
+      },
+      "8": {
+        "filename": "Workers.code",
+        "line": 88
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 89
+      },
+      "32": {
+        "filename": "Workers.code",
+        "line": 90
+      },
+      "48": {
+        "filename": "Workers.code",
+        "line": 91
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 92
+      },
+      "64": {
+        "filename": "Workers.code",
+        "line": 93
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 94
+      },
+      "96": {
+        "filename": "Workers.code",
+        "line": 95
+      },
+      "112": {
+        "filename": "Workers.code",
+        "line": 100
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 101
+      },
+      "128": {
+        "filename": "Workers.code",
+        "line": 102
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 103
+      },
+      "152": {
+        "filename": "Workers.code",
+        "line": 104
+      },
+      "168": {
+        "filename": "Workers.code",
+        "line": 105
+      },
+      "184": {
+        "filename": "Workers.code",
+        "line": 110
+      },
+      "192": {
+        "filename": "Workers.code",
+        "line": 111
+      },
+      "200": {
+        "filename": "Workers.code",
+        "line": 113
+      },
+      "216": {
+        "filename": "Workers.code",
+        "line": 114
+      },
+      "232": {
+        "filename": "Workers.code",
+        "line": 115
+      },
+      "248": {
+        "filename": "Workers.code",
+        "line": 116
+      },
+      "264": {
+        "filename": "Workers.code",
+        "line": 117
+      },
+      "280": {
+        "filename": "Workers.code",
+        "line": 118
+      },
+      "296": {
+        "filename": "Workers.code",
+        "line": 119
+      },
+      "320": {
+        "filename": "Workers.code",
+        "line": 120
+      },
+      "336": {
+        "filename": "Workers.code",
+        "line": 121
+      },
+      "344": {
+        "filename": "Workers.code",
+        "line": 122
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "8709e23a46224c5af3b7d5bdc8e81f05789f69e9dfe3566b903100be9399f65e": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 21
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 21
+      },
+      "24": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "184": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "192": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "200": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "208": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "216": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      },
+      "224": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 22
+      }
+    },
+    "87c527a22e663c9e45248c97231f4ae7fb46f9a07021ee22ae8fef0e27b1bc8c": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 82
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 83
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 84
+      },
+      "40": {
+        "filename": "Workers.code",
+        "line": 85
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 86
+      },
+      "72": {
+        "filename": "Workers.code",
+        "line": 124
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "a7484ee0c0d1c1d04b74d8b50984522f4fb5f0c160a60bc2564576cda8c2d610": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 164
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 165
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 166
+      },
+      "40": {
+        "filename": "Workers.code",
+        "line": 167
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 168
+      },
+      "72": {
+        "filename": "Workers.code",
+        "line": 169
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 170
+      },
+      "88": {
+        "filename": "Workers.code",
+        "line": 171
+      },
+      "112": {
+        "filename": "Workers.code",
+        "line": 172
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 173
+      },
+      "144": {
+        "filename": "Workers.code",
+        "line": 174
+      },
+      "152": {
+        "filename": "Workers.code",
+        "line": 175
+      },
+      "168": {
+        "filename": "Workers.code",
+        "line": 176
+      },
+      "184": {
+        "filename": "Workers.code",
+        "line": 180
+      },
+      "192": {
+        "filename": "Workers.code",
+        "line": 181
+      },
+      "216": {
+        "filename": "Workers.code",
+        "line": 182
+      },
+      "232": {
+        "filename": "Workers.code",
+        "line": 183
+      },
+      "240": {
+        "filename": "Workers.code",
+        "line": 184
+      },
+      "256": {
+        "filename": "Workers.code",
+        "line": 188
+      },
+      "264": {
+        "filename": "Workers.code",
+        "line": 189
+      },
+      "280": {
+        "filename": "Workers.code",
+        "line": 192
+      }
+    },
+    "c75d91702e9bc99d1334f31c45b4148999af554efc6d13b9e2e66aafb2fc139f": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Workers.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Workers.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Workers.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Workers.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/Workers.tsol",
+        "line": 17
+      },
+      "104": {
+        "filename": "Workers.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 19
+      }
+    },
+    "cbb337516857ed4be77672d1fda9fe26f390d152eff39885eda80aec7f1a7145": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 62
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 63
+      },
+      "24": {
+        "filename": "Workers.code",
+        "line": 64
+      },
+      "40": {
+        "filename": "Workers.code",
+        "line": 65
+      },
+      "56": {
+        "filename": "Workers.code",
+        "line": 66
+      },
+      "72": {
+        "filename": "Workers.code",
+        "line": 67
+      },
+      "80": {
+        "filename": "Workers.code",
+        "line": 68
+      },
+      "96": {
+        "filename": "Workers.code",
+        "line": 69
+      },
+      "104": {
+        "filename": "Workers.code",
+        "line": 70
+      },
+      "112": {
+        "filename": "Workers.code",
+        "line": 71
+      },
+      "120": {
+        "filename": "Workers.code",
+        "line": 72
+      },
+      "136": {
+        "filename": "Workers.code",
+        "line": 73
+      },
+      "144": {
+        "filename": "Workers.code",
+        "line": 74
+      },
+      "152": {
+        "filename": "Workers.code",
+        "line": 75
+      },
+      "168": {
+        "filename": "Workers.code",
+        "line": 76
+      },
+      "184": {
+        "filename": "Workers.code",
+        "line": 77
+      },
+      "200": {
+        "filename": "Workers.code",
+        "line": 78
+      },
+      "216": {
+        "filename": "Workers.code",
+        "line": 79
+      }
+    },
+    "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 96
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Workers.code",
+        "line": 177
+      },
+      "16": {
+        "filename": "Workers.code",
+        "line": 178
+      }
+    }
+  }
+}

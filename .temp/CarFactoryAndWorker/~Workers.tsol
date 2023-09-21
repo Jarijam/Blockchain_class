@@ -1,0 +1,24 @@
+pragma ever-solidity >= 0.62.0;
+
+import "./~CarFactory.tsol";
+
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+contract Workers {
+
+    address static factoryAddress;
+    address static owner;
+    
+    string offer;
+    event OfferFromFactory(string offer);
+
+    constructor() public {
+        tvm.accept();
+    }
+
+    function receiveOffer(string _offer) public {
+        offer = _offer;
+        emit OfferFromFactory(offer);    
+    }
+}

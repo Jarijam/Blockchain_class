@@ -1,0 +1,44 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receiveOffer",
+			"inputs": [
+				{"name":"_offer","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"factoryAddress","type":"address"},
+		{"key":2,"name":"owner","type":"address"}
+	],
+	"events": [
+		{
+			"name": "OfferFromFactory",
+			"inputs": [
+				{"name":"offer","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"factoryAddress","type":"address"},
+		{"name":"owner","type":"address"},
+		{"name":"offer","type":"string"}
+	]
+}
