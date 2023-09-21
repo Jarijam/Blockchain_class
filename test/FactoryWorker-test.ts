@@ -4,6 +4,7 @@ import { FactorySource } from "../build/factorySource";
 import { Account } from "everscale-standalone-client";
 
 let carFactory: Contract<FactorySource["CarFactory"]>;
+let workers: Contract<FactorySource["Workers"]>;
 
 let factoryAccount: Account;
 let workerAccount: Account;
@@ -38,6 +39,7 @@ describe("Car_Factory_Test", async function () {
                 contract: "CarFactory",
                 initParams: {
                     workerContractCode: workerCode,
+                    
                 },
                 constructorParams: {
                     _owner: factoryWallet.address,
@@ -47,13 +49,14 @@ describe("Car_Factory_Test", async function () {
             })
             .then(res => res.contract);
             
-            
+            worker = await locklift.factory
+
         });
         it("Interact with contract", async function () {
             const { traceTree: test} = await locklift.tracing.trace(
                 carFactory.methods
-                .getAddress({
-                    _accountAddress: factoryAccount.address,
+                .sendOffer({
+                    _destAddress: 
                 }).sendExternal({
                     publicKey: signer.publicKey,
                 }),
