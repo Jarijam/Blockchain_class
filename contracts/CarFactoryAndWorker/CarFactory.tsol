@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma ever-solidity >= 0.62.0;
-// import "locklift/src/console.tsol";
+import "locklift/src/console.tsol";
 import "./Workers.tsol";
 pragma AbiHeader expire;
 pragma AbiHeader pubkey;
@@ -13,6 +13,7 @@ contract CarFactory {
 
     event AddressReturn(address userAddress);
     event SendingOffer(string msg);
+    event AccountDeployed(address accountAddress, address ownerAddress);
 
     constructor(
         address _owner
@@ -27,7 +28,16 @@ contract CarFactory {
         _;
     }
 
-    function buildInitParams(address _accountAddress) internal returns (TvmCell) {
+    function deployAccountForWorker() external {
+        require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        deployNewContract(msg.sender);
+   
+            msg.sender.transfer({value:0, flag:128});
+           
+    }
+
+    function buildInitParams(address _accountAddress) internal view returns (TvmCell) {
         return tvm.buildStateInit({
             contr: Workers,
             varInit: {
@@ -39,14 +49,25 @@ contract CarFactory {
         });
     }
 
-    function getAddress(address _accountAddress) public returns(address) {
-        tvm.accept();
+    function getAddress(address _accountAddress) public view returns(address) {
         TvmCell accountInitState = buildInitParams(_accountAddress);
-        emit AddressReturn(address(tvm.hash(accountInitState)));
         return address(tvm.hash(accountInitState));
     }
 
-    //function to senf offer to the worker.
+    function deployNewContract(address _ownerAddress) internal {
+        TvmCell stateInit = buildInitParams(_ownerAddress);
+
+        address accountAddress = new Workers{
+                stateInit: stateInit,
+                code: workerContractCode,
+                value: 1 ever
+
+        }(workerContractCode);
+        emit AccountDeployed(accountAddress, _ownerAddress);
+    }
+
+
+    //function to send offer to the worker.
     function sendOffer(string offer, address _destAddress) public {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         offer = "Will you take this work-offer?";
@@ -64,13 +85,22 @@ contract CarFactory {
     // 2) if it doesn't, begin internal-deploy 
     //      and recall the function(ex. offer)
 
+    // onBounce(TvmSlice slice) external {
+    //     TvmSlice newSlice = slice.loadRef().toSlice();
+    //     // uint32 functionId = newSlice.decode(uint32);
+    //     uint32 functionId = newSlice.load(uint32);
+
+    //     if(functionId == tvm.functionId(Workers.receiveOffer)) {
+    //         (string _offer) = newSlice.loadFunctionParams(Workers.receiveOffer);
+    //     }
+    // }
+
     onBounce(TvmSlice body) external {
-        TvmSlice newBody = body.loadRef().toSlice();
-        uint32 functionId = newBody.decode(uint32);
-
-        // if(functionId == tvm.functionId()) {
-
-        // }
+        TvmSlice newSlice = body.loadRef().toSlice();
+        uint32 functionId = newSlice.decode(uint32); 
+        
+        if(functionId == tvm.functionId(Workers.receiveOffer)) {
+            (string _offer) = newSlice.decodeFunctionParams(Workers.receiveOffer);
+        }
     }
-
 }

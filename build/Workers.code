@@ -9,9 +9,12 @@ IFREF {
 }
 GETGLOB 6
 THROWIF 51
+LDREF
 ENDS
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 17
+.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 18
 ACCEPT
+.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 19
+SETGLOB 12
 .loc ../contracts/CarFactoryAndWorker/Workers.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
@@ -27,7 +30,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 20
+.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 22
 LDREF
 ENDS
 .loc ../contracts/CarFactoryAndWorker/Workers.tsol, 0
@@ -45,10 +48,10 @@ THROW 0
 CALL $receiveOffer_16d2850a_internal_macro$
 
 .macro receiveOffer_16d2850a_internal_macro
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 21
+.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 24
 DUP
-SETGLOB 12
-.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 22
+SETGLOB 13
+.loc ../contracts/CarFactoryAndWorker/Workers.tsol, 25
 PUSHSLICE xc00000000000000000000000002dfccdfc
 NEWC
 STSLICE
@@ -71,7 +74,9 @@ ENDS
 CTOS
 LDMSGADDR
 LDREF
+LDREF
 ENDS
+SETGLOB 13
 SETGLOB 12
 SETGLOB 11
 SETGLOB 10
@@ -110,6 +115,8 @@ PUSHCONT {
 	IFNOT
 	PUSHREF {
 	}
+	DUP
+	SETGLOB 13
 	SETGLOB 12
 	SETGLOB 11
 	SETGLOB 10
@@ -126,6 +133,7 @@ IFREFELSE {
 }
 
 .macro c7_to_c4
+GETGLOB 13
 GETGLOB 12
 GETGLOB 11
 GETGLOB 10
@@ -136,9 +144,10 @@ STU 256
 STU 64
 STONE
 STSLICE
-ROTREV
+ROLLREV 3
 NEWC
 STSLICE
+STREF
 STREF
 STBREFR
 ENDC
@@ -246,7 +255,33 @@ CALLREF {
 }
 THROW 60
 
+.macro workerContractCode
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 12
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000bca8a617
+	NEWC
+	STSLICE
+	STREF
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
 .macro public_function_selector
+DUP
+PUSHINT 478865691
+EQUAL
+IFJMPREF {
+	CALL $constructor$
+}
 DUP
 PUSHINT 653351726
 EQUAL
@@ -254,9 +289,9 @@ IFJMPREF {
 	CALL $receiveOffer$
 }
 DUP
-PUSHINT 1756716863
+PUSHINT 1017685527
 EQUAL
 IFJMPREF {
-	CALL $constructor$
+	CALL $workerContractCode$
 }
 

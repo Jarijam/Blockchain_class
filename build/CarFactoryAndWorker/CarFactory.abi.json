@@ -12,6 +12,13 @@
 			]
 		},
 		{
+			"name": "deployAccountForWorker",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "getAddress",
 			"inputs": [
 				{"name":"_accountAddress","type":"address"}
@@ -69,6 +76,15 @@
 			"name": "SendingOffer",
 			"inputs": [
 				{"name":"msg","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "AccountDeployed",
+			"inputs": [
+				{"name":"accountAddress","type":"address"},
+				{"name":"ownerAddress","type":"address"}
 			],
 			"outputs": [
 			]
