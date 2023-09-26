@@ -1,443 +1,555 @@
 {
   "map": {
-    "025284d7e5900c375a9a09e13052ad4dbc049f8dd1e5bc5ac0e8cf5be1160702": {
+    "02ada31c13babefaa204893a5b5b96ac614deb6158cff27c5032cbdda7ad9f54": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 70
+        "line": 535
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 536
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 537
+      },
+      "40": {
+        "filename": "CarFactory.code",
+        "line": 538
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 539
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 570
+      }
+    },
+    "03c43b69a67f914371ff4083f7cd532a900d3df8b98f6a43d91f8cd0af0383e5": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 730
       },
       "8": {
         "filename": "CarFactory.code",
-        "line": 71
+        "line": 731
       },
-      "24": {
+      "16": {
         "filename": "CarFactory.code",
-        "line": 72
+        "line": 732
+      },
+      "32": {
+        "filename": "CarFactory.code",
+        "line": 735
       },
       "48": {
         "filename": "CarFactory.code",
-        "line": 73
+        "line": 736
       },
-      "64": {
+      "56": {
         "filename": "CarFactory.code",
-        "line": 74
+        "line": 737
       },
       "72": {
         "filename": "CarFactory.code",
-        "line": 75
-      },
-      "88": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "96": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "104": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "112": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "120": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "128": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "136": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "152": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 42
-      },
-      "160": {
-        "filename": "CarFactory.code",
-        "line": 89
-      },
-      "176": {
-        "filename": "CarFactory.code",
-        "line": 92
-      },
-      "184": {
-        "filename": "CarFactory.code",
-        "line": 93
-      },
-      "200": {
-        "filename": "CarFactory.code",
-        "line": 94
-      },
-      "208": {
-        "filename": "CarFactory.code",
-        "line": 95
-      },
-      "216": {
-        "filename": "CarFactory.code",
-        "line": 96
+        "line": 738
       },
       "232": {
         "filename": "CarFactory.code",
-        "line": 97
-      },
-      "248": {
-        "filename": "CarFactory.code",
-        "line": 98
-      },
-      "256": {
-        "filename": "CarFactory.code",
-        "line": 99
-      },
-      "264": {
-        "filename": "CarFactory.code",
-        "line": 100
-      },
-      "272": {
-        "filename": "CarFactory.code",
-        "line": 101
-      },
-      "296": {
-        "filename": "CarFactory.code",
-        "line": 102
-      },
-      "304": {
-        "filename": "CarFactory.code",
-        "line": 103
-      },
-      "312": {
-        "filename": "CarFactory.code",
-        "line": 104
-      },
-      "336": {
-        "filename": "CarFactory.code",
-        "line": 105
-      },
-      "344": {
-        "filename": "CarFactory.code",
-        "line": 106
-      },
-      "352": {
-        "filename": "CarFactory.code",
-        "line": 107
-      },
-      "400": {
-        "filename": "CarFactory.code",
-        "line": 108
-      },
-      "408": {
-        "filename": "CarFactory.code",
-        "line": 109
-      },
-      "416": {
-        "filename": "CarFactory.code",
-        "line": 110
-      },
-      "424": {
-        "filename": "CarFactory.code",
-        "line": 111
-      },
-      "432": {
-        "filename": "CarFactory.code",
-        "line": 112
-      },
-      "448": {
-        "filename": "CarFactory.code",
-        "line": 114
-      },
-      "456": {
-        "filename": "CarFactory.code",
-        "line": 115
-      },
-      "464": {
-        "filename": "CarFactory.code",
-        "line": 117
-      },
-      "472": {
-        "filename": "CarFactory.code",
-        "line": 118
-      },
-      "480": {
-        "filename": "CarFactory.code",
-        "line": 119
-      },
-      "496": {
-        "filename": "CarFactory.code",
-        "line": 122
-      }
-    },
-    "1316217d7a29ffef201934be0bc4986191c469d806aab805801a77be8536926e": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 368
-      },
-      "16": {
-        "filename": "CarFactory.code",
-        "line": 369
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 370
-      },
-      "40": {
-        "filename": "CarFactory.code",
-        "line": 371
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 372
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 373
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 374
-      },
-      "88": {
-        "filename": "CarFactory.code",
-        "line": 375
-      },
-      "104": {
-        "filename": "CarFactory.code",
-        "line": 376
-      },
-      "120": {
-        "filename": "CarFactory.code",
-        "line": 377
-      },
-      "128": {
-        "filename": "CarFactory.code",
-        "line": 378
-      },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 379
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 380
-      },
-      "184": {
-        "filename": "CarFactory.code",
-        "line": 386
-      },
-      "192": {
-        "filename": "CarFactory.code",
-        "line": 387
-      },
-      "208": {
-        "filename": "CarFactory.code",
-        "line": 388
-      },
-      "224": {
-        "filename": "CarFactory.code",
-        "line": 392
-      },
-      "232": {
-        "filename": "CarFactory.code",
-        "line": 393
-      },
-      "256": {
-        "filename": "CarFactory.code",
-        "line": 394
-      },
-      "272": {
-        "filename": "CarFactory.code",
-        "line": 395
-      },
-      "280": {
-        "filename": "CarFactory.code",
-        "line": 396
-      },
-      "296": {
-        "filename": "CarFactory.code",
-        "line": 400
-      },
-      "304": {
-        "filename": "CarFactory.code",
-        "line": 401
-      },
-      "320": {
-        "filename": "CarFactory.code",
-        "line": 404
-      }
-    },
-    "15e8aaf7f636487d8e3f7eb18b3a82a0b343f3d6824a7e6c389462afce4d8e4c": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 295
-      },
-      "16": {
-        "filename": "CarFactory.code",
-        "line": 296
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 297
-      },
-      "40": {
-        "filename": "CarFactory.code",
-        "line": 298
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 299
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 328
-      }
-    },
-    "2c29ddc81518084b27b3d9263ce759d5f38ada658fb1fd3475f2774ba17e2ceb": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 408
-      },
-      "16": {
-        "filename": "CarFactory.code",
-        "line": 409
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 410
-      },
-      "40": {
-        "filename": "CarFactory.code",
-        "line": 411
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 412
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 413
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 416
-      },
-      "96": {
-        "filename": "CarFactory.code",
-        "line": 417
-      },
-      "104": {
-        "filename": "CarFactory.code",
-        "line": 418
-      },
-      "120": {
-        "filename": "CarFactory.code",
-        "line": 421
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 422
-      },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 423
-      },
-      "160": {
-        "filename": "CarFactory.code",
-        "line": 424
-      },
-      "176": {
-        "filename": "CarFactory.code",
-        "line": 425
-      },
-      "192": {
-        "filename": "CarFactory.code",
-        "line": 426
-      },
-      "200": {
-        "filename": "CarFactory.code",
-        "line": 427
-      },
-      "216": {
-        "filename": "CarFactory.code",
-        "line": 428
-      },
-      "224": {
-        "filename": "CarFactory.code",
-        "line": 429
+        "line": 739
       },
       "240": {
         "filename": "CarFactory.code",
-        "line": 430
+        "line": 740
       },
       "248": {
         "filename": "CarFactory.code",
-        "line": 431
+        "line": 741
       },
       "256": {
         "filename": "CarFactory.code",
-        "line": 432
+        "line": 742
+      },
+      "264": {
+        "filename": "CarFactory.code",
+        "line": 743
       },
       "272": {
         "filename": "CarFactory.code",
-        "line": 433
-      },
-      "280": {
-        "filename": "CarFactory.code",
-        "line": 434
+        "line": 744
       },
       "288": {
         "filename": "CarFactory.code",
-        "line": 436
+        "line": 746
       },
       "296": {
         "filename": "CarFactory.code",
-        "line": 437
+        "line": 747
+      }
+    },
+    "13108a50fe56733912aea53b161c5424564a47d20328b76b73462b799cbfbc3a": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 121
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 122
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 123
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 124
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 125
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 126
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "112": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "136": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 56
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 140
+      },
+      "176": {
+        "filename": "CarFactory.code",
+        "line": 143
+      },
+      "184": {
+        "filename": "CarFactory.code",
+        "line": 144
+      },
+      "200": {
+        "filename": "CarFactory.code",
+        "line": 145
+      },
+      "208": {
+        "filename": "CarFactory.code",
+        "line": 146
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 147
+      },
+      "232": {
+        "filename": "CarFactory.code",
+        "line": 148
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 149
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 150
+      },
+      "264": {
+        "filename": "CarFactory.code",
+        "line": 151
+      },
+      "272": {
+        "filename": "CarFactory.code",
+        "line": 152
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 153
       },
       "304": {
         "filename": "CarFactory.code",
-        "line": 438
+        "line": 154
       },
-      "320": {
+      "312": {
         "filename": "CarFactory.code",
-        "line": 440
+        "line": 155
       },
-      "328": {
+      "336": {
         "filename": "CarFactory.code",
-        "line": 441
+        "line": 156
       },
       "344": {
         "filename": "CarFactory.code",
-        "line": 442
+        "line": 157
       },
-      "360": {
+      "352": {
         "filename": "CarFactory.code",
-        "line": 444
+        "line": 158
       },
-      "368": {
+      "400": {
         "filename": "CarFactory.code",
-        "line": 445
-      },
-      "384": {
-        "filename": "CarFactory.code",
-        "line": 446
-      },
-      "392": {
-        "filename": "CarFactory.code",
-        "line": 447
+        "line": 159
       },
       "408": {
         "filename": "CarFactory.code",
-        "line": 449
+        "line": 160
       },
       "416": {
         "filename": "CarFactory.code",
-        "line": 450
+        "line": 161
+      },
+      "424": {
+        "filename": "CarFactory.code",
+        "line": 162
       },
       "432": {
         "filename": "CarFactory.code",
-        "line": 451
+        "line": 163
+      },
+      "448": {
+        "filename": "CarFactory.code",
+        "line": 165
+      },
+      "456": {
+        "filename": "CarFactory.code",
+        "line": 166
+      },
+      "464": {
+        "filename": "CarFactory.code",
+        "line": 168
+      },
+      "472": {
+        "filename": "CarFactory.code",
+        "line": 169
+      },
+      "488": {
+        "filename": "CarFactory.code",
+        "line": 172
+      }
+    },
+    "133167faa11c510413e04598433db0810ae7fb8fbdbf61c5eaab8597ad49d42f": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 625
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 626
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 627
+      },
+      "32": {
+        "filename": "CarFactory.code",
+        "line": 441
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 442
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 443
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 444
+      },
+      "96": {
+        "filename": "CarFactory.code",
+        "line": 445
+      },
+      "112": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 113
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 113
+      },
+      "136": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 114
+      },
+      "144": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 114
+      },
+      "160": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 114
+      },
+      "168": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 116
+      },
+      "216": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 116
+      },
+      "224": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 116
+      },
+      "240": {
+        "filename": "CarFactory.code",
+        "line": 505
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 507
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 508
+      }
+    },
+    "167cbcddb50e29cce7c28a14df73bae947a561cc10d9c38c298a1e02278eb4e6": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "24": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "32": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "40": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "56": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "64": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "72": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "136": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "168": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "184": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "192": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      }
+    },
+    "176a32251aa82d6b2b62eac5791e6a653d6ae38de48a34aadbff8d551d4b4224": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 652
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 653
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 654
+      },
+      "40": {
+        "filename": "CarFactory.code",
+        "line": 655
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 656
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 657
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 660
+      },
+      "96": {
+        "filename": "CarFactory.code",
+        "line": 661
+      },
+      "104": {
+        "filename": "CarFactory.code",
+        "line": 662
+      },
+      "120": {
+        "filename": "CarFactory.code",
+        "line": 665
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 666
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 667
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 668
+      },
+      "176": {
+        "filename": "CarFactory.code",
+        "line": 669
+      },
+      "192": {
+        "filename": "CarFactory.code",
+        "line": 670
+      },
+      "200": {
+        "filename": "CarFactory.code",
+        "line": 671
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 672
+      },
+      "224": {
+        "filename": "CarFactory.code",
+        "line": 673
+      },
+      "240": {
+        "filename": "CarFactory.code",
+        "line": 674
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 675
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 676
+      },
+      "272": {
+        "filename": "CarFactory.code",
+        "line": 677
+      },
+      "280": {
+        "filename": "CarFactory.code",
+        "line": 678
+      },
+      "288": {
+        "filename": "CarFactory.code",
+        "line": 680
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 681
+      },
+      "304": {
+        "filename": "CarFactory.code",
+        "line": 682
+      },
+      "320": {
+        "filename": "CarFactory.code",
+        "line": 684
+      },
+      "328": {
+        "filename": "CarFactory.code",
+        "line": 685
+      },
+      "344": {
+        "filename": "CarFactory.code",
+        "line": 686
+      },
+      "360": {
+        "filename": "CarFactory.code",
+        "line": 688
+      },
+      "368": {
+        "filename": "CarFactory.code",
+        "line": 689
+      },
+      "384": {
+        "filename": "CarFactory.code",
+        "line": 690
+      },
+      "392": {
+        "filename": "CarFactory.code",
+        "line": 691
+      },
+      "408": {
+        "filename": "CarFactory.code",
+        "line": 693
+      },
+      "416": {
+        "filename": "CarFactory.code",
+        "line": 694
+      },
+      "432": {
+        "filename": "CarFactory.code",
+        "line": 695
       },
       "440": {
         "filename": "stdlib.sol",
@@ -493,211 +605,635 @@
       },
       "632": {
         "filename": "CarFactory.code",
-        "line": 453
+        "line": 697
       },
       "648": {
         "filename": "CarFactory.code",
-        "line": 454
+        "line": 698
       },
       "656": {
         "filename": "CarFactory.code",
-        "line": 455
+        "line": 699
       },
       "672": {
         "filename": "CarFactory.code",
-        "line": 456
+        "line": 700
       },
       "680": {
         "filename": "CarFactory.code",
-        "line": 457
+        "line": 701
       },
       "696": {
         "filename": "CarFactory.code",
-        "line": 458
+        "line": 702
       },
       "712": {
         "filename": "CarFactory.code",
-        "line": 459
+        "line": 703
       },
       "720": {
         "filename": "CarFactory.code",
-        "line": 460
+        "line": 704
       },
       "736": {
         "filename": "CarFactory.code",
-        "line": 463
+        "line": 707
+      }
+    },
+    "1adf916fce992a2e4eebe721ee3e81b8cb2689afe74185ebb12fe67ae3233f19": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 783
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 784
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 785
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 786
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 789
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 790
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 791
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 792
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 795
+      },
+      "168": {
+        "filename": "CarFactory.code",
+        "line": 796
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 797
+      },
+      "224": {
+        "filename": "CarFactory.code",
+        "line": 798
+      }
+    },
+    "1bef3ecdaff45aff01d09d0b0de2da5a29a79d879aa3b5118ddd00de9295eeed": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 37
+      },
+      "48": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 37
+      },
+      "56": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 37
+      },
+      "72": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 38
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 38
+      },
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "160": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "176": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "192": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "200": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      },
+      "216": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 40
+      }
+    },
+    "1c49dd00486e156d53179d46bc7af7ae8f0f8fd19f7a7ef35283c99bc8aa974f": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
       }
     },
     "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 313
+        "line": 553
       }
     },
-    "3a4e7fb473293b2c1bd3ada2491b141e5bda1462b5c8d60b929386175218b88e": {
+    "3cde9455652d94ceed6fd0c59e35386ca5dae4e9ce6fde63a09611a68b2b6ea4": {
       "0": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 43
+        "line": 96
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 96
+      }
+    },
+    "4c07a8d409f25c4597896afabe34378d75b35bff2410efe683442c3b01fac9cd": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 575
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 576
+      },
+      "32": {
+        "filename": "CarFactory.code",
+        "line": 577
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 578
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 579
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 580
+      },
+      "96": {
+        "filename": "CarFactory.code",
+        "line": 581
+      },
+      "104": {
+        "filename": "CarFactory.code",
+        "line": 582
+      },
+      "120": {
+        "filename": "CarFactory.code",
+        "line": 583
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 584
+      },
+      "152": {
+        "filename": "CarFactory.code",
+        "line": 585
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 586
+      },
+      "176": {
+        "filename": "CarFactory.code",
+        "line": 587
+      },
+      "184": {
+        "filename": "CarFactory.code",
+        "line": 588
+      },
+      "192": {
+        "filename": "CarFactory.code",
+        "line": 589
+      },
+      "200": {
+        "filename": "CarFactory.code",
+        "line": 590
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 591
+      },
+      "224": {
+        "filename": "CarFactory.code",
+        "line": 592
+      },
+      "232": {
+        "filename": "CarFactory.code",
+        "line": 593
+      }
+    },
+    "5b8e8903d747b0b8792c67da33733c1b0828b88f87c0f01300a11147e382c376": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 57
       },
       "16": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 44
+        "line": 58
       },
       "32": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
+        "line": 58
       },
       "40": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
+        "line": 58
       },
-      "56": {
+      "72": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
+        "line": 58
       },
-      "64": {
+      "88": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
+        "line": 58
       },
       "96": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "112": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "120": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "128": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "288": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "296": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "304": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "312": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "320": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "328": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 45
-      },
-      "344": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
-      },
-      "360": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
-      },
-      "368": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
-      },
-      "400": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
-      },
-      "416": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
-      },
-      "424": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 46
+        "line": 58
       }
     },
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 305
+        "line": 545
       }
     },
-    "631fd702c6f153f460beec62e637f6f89e9374edb6aa1a0fe10d6bedc7c39d61": {
+    "65d932a1137aaf7df7c39ac345055bf1c43b944365d48282beecf50e9520e397": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 333
+        "line": 540
       },
-      "16": {
+      "8": {
         "filename": "CarFactory.code",
-        "line": 334
+        "line": 541
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 542
       },
       "32": {
         "filename": "CarFactory.code",
-        "line": 335
+        "line": 543
       },
       "48": {
         "filename": "CarFactory.code",
-        "line": 336
+        "line": 544
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 547
       },
       "64": {
         "filename": "CarFactory.code",
-        "line": 337
+        "line": 548
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 549
       },
       "80": {
         "filename": "CarFactory.code",
-        "line": 338
+        "line": 550
       },
-      "88": {
+      "96": {
         "filename": "CarFactory.code",
-        "line": 339
+        "line": 551
       },
-      "104": {
+      "112": {
         "filename": "CarFactory.code",
-        "line": 340
+        "line": 552
       },
-      "120": {
+      "128": {
         "filename": "CarFactory.code",
-        "line": 341
+        "line": 556
       },
       "136": {
         "filename": "CarFactory.code",
-        "line": 342
+        "line": 557
       },
       "144": {
         "filename": "CarFactory.code",
-        "line": 343
-      },
-      "152": {
-        "filename": "CarFactory.code",
-        "line": 344
+        "line": 558
       },
       "160": {
         "filename": "CarFactory.code",
-        "line": 345
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 346
+        "line": 559
       },
       "176": {
         "filename": "CarFactory.code",
-        "line": 347
-      },
-      "184": {
-        "filename": "CarFactory.code",
-        "line": 348
+        "line": 560
       },
       "192": {
         "filename": "CarFactory.code",
-        "line": 349
+        "line": 561
+      },
+      "208": {
+        "filename": "CarFactory.code",
+        "line": 562
+      },
+      "224": {
+        "filename": "CarFactory.code",
+        "line": 563
+      },
+      "240": {
+        "filename": "CarFactory.code",
+        "line": 564
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 565
+      },
+      "280": {
+        "filename": "CarFactory.code",
+        "line": 566
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 567
+      },
+      "304": {
+        "filename": "CarFactory.code",
+        "line": 568
+      }
+    },
+    "6930b6deed2addc0493027b0fd28e4559dfdd199fcd840b77a1a6d56e5f9dd28": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "16": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "32": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "40": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "48": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "56": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "72": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "80": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 117
+      },
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 119
+      },
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 119
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 119
+      },
+      "144": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "168": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "184": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "200": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "216": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "224": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "248": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "256": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "264": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "288": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "304": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "312": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "360": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "368": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "376": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "384": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "392": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "400": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "408": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "416": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "424": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "440": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 120
+      },
+      "456": {
+        "filename": "CarFactory.code",
+        "line": 503
+      }
+    },
+    "6a7023976d0688654b81d536075800bc74b581955b8a89b3168e888ac93c380e": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 612
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 613
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 614
+      },
+      "40": {
+        "filename": "CarFactory.code",
+        "line": 615
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 616
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 617
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 618
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 619
+      },
+      "104": {
+        "filename": "CarFactory.code",
+        "line": 620
+      },
+      "120": {
+        "filename": "CarFactory.code",
+        "line": 621
+      },
+      "128": {
+        "filename": "CarFactory.code",
+        "line": 622
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 623
+      },
+      "168": {
+        "filename": "CarFactory.code",
+        "line": 624
+      },
+      "184": {
+        "filename": "CarFactory.code",
+        "line": 630
+      },
+      "192": {
+        "filename": "CarFactory.code",
+        "line": 631
+      },
+      "208": {
+        "filename": "CarFactory.code",
+        "line": 632
+      },
+      "224": {
+        "filename": "CarFactory.code",
+        "line": 636
+      },
+      "232": {
+        "filename": "CarFactory.code",
+        "line": 637
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 638
+      },
+      "272": {
+        "filename": "CarFactory.code",
+        "line": 639
+      },
+      "280": {
+        "filename": "CarFactory.code",
+        "line": 640
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 644
+      },
+      "304": {
+        "filename": "CarFactory.code",
+        "line": 645
+      },
+      "320": {
+        "filename": "CarFactory.code",
+        "line": 648
+      }
+    },
+    "703b5de1c51995a57a7af4f65ab0b918117f25d850ba10a9bcca06d1cffa4cd6": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 96
       }
     },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
@@ -710,69 +1246,91 @@
         "line": 2
       }
     },
-    "78f52380f626d8bf6af2d8bbd2281e34883e23af5a62900277e3f0d14ea5e68f": {
+    "76503b8ac63b2141ad95f130c44a7eadc1e1f7b023c893f1f220005e28bd623d": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 486
+        "line": 287
       },
       "8": {
         "filename": "CarFactory.code",
-        "line": 487
+        "line": 288
       },
-      "16": {
+      "24": {
         "filename": "CarFactory.code",
-        "line": 488
-      },
-      "32": {
-        "filename": "CarFactory.code",
-        "line": 491
+        "line": 289
       },
       "48": {
         "filename": "CarFactory.code",
-        "line": 492
+        "line": 290
       },
-      "56": {
+      "64": {
         "filename": "CarFactory.code",
-        "line": 493
+        "line": 291
       },
       "72": {
         "filename": "CarFactory.code",
-        "line": 494
+        "line": 292
       },
-      "232": {
-        "filename": "CarFactory.code",
-        "line": 495
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "240": {
-        "filename": "CarFactory.code",
-        "line": 496
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "248": {
-        "filename": "CarFactory.code",
-        "line": 497
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "256": {
-        "filename": "CarFactory.code",
-        "line": 498
+      "112": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "264": {
-        "filename": "CarFactory.code",
-        "line": 499
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "272": {
-        "filename": "CarFactory.code",
-        "line": 500
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "288": {
-        "filename": "CarFactory.code",
-        "line": 502
+      "136": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
       },
-      "296": {
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
+      },
+      "160": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 82
+      },
+      "168": {
         "filename": "CarFactory.code",
-        "line": 503
+        "line": 307
+      },
+      "184": {
+        "filename": "CarFactory.code",
+        "line": 310
+      },
+      "192": {
+        "filename": "CarFactory.code",
+        "line": 311
+      },
+      "208": {
+        "filename": "CarFactory.code",
+        "line": 314
       }
     },
-    "808187f4e8b47bfa52782d6f0829f465e7ede5a38bd4508f20f1689e6b62a670": {
+    "81fadce957c1f9691ad1ea7227dd5abb34a15177c434a2c552ac0c30d7aab4bf": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 84
+      }
+    },
+    "83a2a38d9476c28dc1da7c8de6f4d352db03d4635e7d222763dbda24e16cd3f1": {
       "0": {
         "filename": "CarFactory.code",
         "line": 4
@@ -831,19 +1389,19 @@
       },
       "152": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 20
+        "line": 25
       },
       "168": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 21
+        "line": 26
       },
       "184": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 22
+        "line": 27
       },
       "200": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 22
+        "line": 27
       },
       "216": {
         "filename": "CarFactory.code",
@@ -854,272 +1412,816 @@
         "line": 32
       }
     },
-    "81fadce957c1f9691ad1ea7227dd5abb34a15177c434a2c552ac0c30d7aab4bf": {
+    "88e2184a40e3c5d3e26203a7bff29257ea18bb5659123482de8aa96cfffd8ebd": {
       "0": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 52
+        "line": 98
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      }
+    },
+    "8fb8a03d9cbc969d34600eea833ce02fd8a9d4c56aa07f9d5827ecc8426a5789": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      }
+    },
+    "92dbf72870703f917ada0a4aecfcf882c93207cbbb4f6785396f313c593b553d": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 750
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 751
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 752
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 753
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 779
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 780
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 781
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 782
       }
     },
     "941a417face2f2b43290be2879da59d0d6a71eb3be65dc27fcffe7f6278efdab": {
       "0": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "16": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "24": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "40": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "48": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "56": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "72": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "88": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "96": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "104": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "112": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "128": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "144": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "160": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "168": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "176": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "192": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "208": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "216": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "232": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "240": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "256": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "264": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "288": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "304": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "320": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       },
       "336": {
         "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 31
+        "line": 45
       }
     },
     "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "98fbdf080f00678eb100c448435405c66e5a0d7444623e49ea1b3773d70fb1b6": {
+    "a84c7cd52df38bbfbc342cabd0789c11256670bb53065892a1baeb2c2a462c1c": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 466
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 467
+        "line": 513
       },
       "16": {
         "filename": "CarFactory.code",
-        "line": 468
-      },
-      "32": {
-        "filename": "CarFactory.code",
-        "line": 471
-      },
-      "48": {
-        "filename": "CarFactory.code",
-        "line": 472
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 473
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 474
-      },
-      "232": {
-        "filename": "CarFactory.code",
-        "line": 475
-      },
-      "240": {
-        "filename": "CarFactory.code",
-        "line": 476
-      },
-      "248": {
-        "filename": "CarFactory.code",
-        "line": 477
-      },
-      "256": {
-        "filename": "CarFactory.code",
-        "line": 478
-      },
-      "264": {
-        "filename": "CarFactory.code",
-        "line": 479
-      },
-      "272": {
-        "filename": "CarFactory.code",
-        "line": 480
-      },
-      "288": {
-        "filename": "CarFactory.code",
-        "line": 482
-      },
-      "296": {
-        "filename": "CarFactory.code",
-        "line": 483
-      }
-    },
-    "af6fe6e546d9ad8935eb2b5d1e3856518ea417cbf1129f2b92ec21793c37ae49": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 160
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 161
+        "line": 514
       },
       "24": {
         "filename": "CarFactory.code",
-        "line": 162
+        "line": 515
       },
-      "48": {
+      "40": {
         "filename": "CarFactory.code",
-        "line": 163
+        "line": 516
       },
-      "64": {
+      "56": {
         "filename": "CarFactory.code",
-        "line": 164
+        "line": 517
       },
       "72": {
         "filename": "CarFactory.code",
-        "line": 165
+        "line": 518
       },
-      "88": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 519
       },
       "96": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 520
       },
       "104": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 521
       },
       "112": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 522
       },
       "120": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
-      },
-      "128": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 523
       },
       "136": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 524
       },
       "144": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
-      },
-      "152": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 525
       },
       "160": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+        "filename": "CarFactory.code",
+        "line": 526
       },
-      "176": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 50
+      "168": {
+        "filename": "CarFactory.code",
+        "line": 527
       },
       "184": {
         "filename": "CarFactory.code",
-        "line": 183
+        "line": 528
       },
       "200": {
         "filename": "CarFactory.code",
-        "line": 186
+        "line": 529
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 530
+      },
+      "232": {
+        "filename": "CarFactory.code",
+        "line": 531
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 532
+      }
+    },
+    "b8331ebf68b076605ae330986ecd201dc8484c56bc5337fd2b59a8037d250127": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 368
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 369
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 370
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 371
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 372
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 373
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 90
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 90
+      },
+      "104": {
+        "filename": "CarFactory.code",
+        "line": 380
+      },
+      "120": {
+        "filename": "CarFactory.code",
+        "line": 383
+      },
+      "128": {
+        "filename": "CarFactory.code",
+        "line": 384
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 387
+      }
+    },
+    "bb09644c95d6490c15949517d4c0484c80aa0460fba080023a0c033c1609a01e": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 35
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 36
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 37
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 38
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 39
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 40
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "104": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "112": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "120": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "136": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 35
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 54
+      },
+      "176": {
+        "filename": "CarFactory.code",
+        "line": 57
+      },
+      "184": {
+        "filename": "CarFactory.code",
+        "line": 58
+      },
+      "200": {
+        "filename": "CarFactory.code",
+        "line": 61
+      }
+    },
+    "c511e7087fa35a3ab52eaefeaed8beec2903808c2275b85eabdd0fc3f269d353": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "168": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "176": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "184": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "192": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "200": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
       },
       "208": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 91
+      },
+      "224": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      },
+      "240": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      },
+      "248": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      },
+      "264": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      },
+      "272": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 92
+      },
+      "288": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 96
+      },
+      "304": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "312": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "320": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "328": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "336": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "344": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      },
+      "352": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 98
+      }
+    },
+    "d844d914e9096cb80a95b53d5cb607e8eb2fbee8e3117395230019d2f048e6ed": {
+      "0": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 62
+      },
+      "8": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 62
+      },
+      "24": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "40": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "56": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "64": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "72": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "88": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "128": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "144": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "152": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "160": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "176": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "184": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "192": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "216": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "224": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "384": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "408": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "416": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "432": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "440": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "488": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "504": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "512": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "520": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "528": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 64
+      },
+      "544": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "664": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "672": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "680": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "688": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "696": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "744": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "752": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "760": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "768": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "776": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "784": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "792": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "800": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      },
+      "808": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 70
+      }
+    },
+    "da737f5d42d82789d4145dfde67af2101e09fa1ba4b07a389d7388b864f56b4b": {
+      "0": {
         "filename": "CarFactory.code",
-        "line": 187
+        "line": 754
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 755
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 756
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 757
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 760
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 761
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 762
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 763
+      },
+      "160": {
+        "filename": "CarFactory.code",
+        "line": 766
+      },
+      "168": {
+        "filename": "CarFactory.code",
+        "line": 767
+      },
+      "216": {
+        "filename": "CarFactory.code",
+        "line": 768
       },
       "224": {
         "filename": "CarFactory.code",
-        "line": 190
+        "line": 769
+      },
+      "240": {
+        "filename": "CarFactory.code",
+        "line": 772
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 773
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 774
+      },
+      "304": {
+        "filename": "CarFactory.code",
+        "line": 775
       }
     },
-    "bcff0be5a647a0bc9f1065438b010de31a980beeeb67a5cca6f26c8a6d5cbf9e": {
+    "dcad50f9f81fe1f8f40ce184a22c00ca9f83a751cb25bdf0e221873b0c8df58f": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 710
+      },
+      "8": {
+        "filename": "CarFactory.code",
+        "line": 711
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 712
+      },
+      "32": {
+        "filename": "CarFactory.code",
+        "line": 715
+      },
+      "48": {
+        "filename": "CarFactory.code",
+        "line": 716
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 717
+      },
+      "72": {
+        "filename": "CarFactory.code",
+        "line": 718
+      },
+      "232": {
+        "filename": "CarFactory.code",
+        "line": 719
+      },
+      "240": {
+        "filename": "CarFactory.code",
+        "line": 720
+      },
+      "248": {
+        "filename": "CarFactory.code",
+        "line": 721
+      },
+      "256": {
+        "filename": "CarFactory.code",
+        "line": 722
+      },
+      "264": {
+        "filename": "CarFactory.code",
+        "line": 723
+      },
+      "272": {
+        "filename": "CarFactory.code",
+        "line": 724
+      },
+      "288": {
+        "filename": "CarFactory.code",
+        "line": 726
+      },
+      "296": {
+        "filename": "CarFactory.code",
+        "line": 727
+      }
+    },
+    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+      "0": {
+        "filename": "CarFactory.code",
+        "line": 596
+      },
+      "16": {
+        "filename": "CarFactory.code",
+        "line": 597
+      },
+      "24": {
+        "filename": "CarFactory.code",
+        "line": 598
+      },
+      "40": {
+        "filename": "CarFactory.code",
+        "line": 599
+      },
+      "56": {
+        "filename": "CarFactory.code",
+        "line": 600
+      },
+      "64": {
+        "filename": "CarFactory.code",
+        "line": 601
+      },
+      "80": {
+        "filename": "CarFactory.code",
+        "line": 602
+      },
+      "88": {
+        "filename": "CarFactory.code",
+        "line": 603
+      },
+      "96": {
+        "filename": "CarFactory.code",
+        "line": 604
+      },
+      "112": {
+        "filename": "CarFactory.code",
+        "line": 605
+      },
+      "128": {
+        "filename": "CarFactory.code",
+        "line": 606
+      },
+      "136": {
+        "filename": "CarFactory.code",
+        "line": 607
+      },
+      "144": {
+        "filename": "CarFactory.code",
+        "line": 608
+      }
+    },
+    "f052827a4642eb524009391b62b7af9db90c79f43354ac612a9837ff4637d662": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -1165,502 +2267,160 @@
         "line": 11
       }
     },
-    "cbb337516857ed4be77672d1fda9fe26f390d152eff39885eda80aec7f1a7145": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 275
-      },
-      "16": {
-        "filename": "CarFactory.code",
-        "line": 276
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 277
-      },
-      "40": {
-        "filename": "CarFactory.code",
-        "line": 278
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 279
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 280
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 281
-      },
-      "96": {
-        "filename": "CarFactory.code",
-        "line": 282
-      },
-      "104": {
-        "filename": "CarFactory.code",
-        "line": 283
-      },
-      "112": {
-        "filename": "CarFactory.code",
-        "line": 284
-      },
-      "120": {
-        "filename": "CarFactory.code",
-        "line": 285
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 286
-      },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 287
-      },
-      "152": {
-        "filename": "CarFactory.code",
-        "line": 288
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 289
-      },
-      "184": {
-        "filename": "CarFactory.code",
-        "line": 290
-      },
-      "200": {
-        "filename": "CarFactory.code",
-        "line": 291
-      },
-      "216": {
-        "filename": "CarFactory.code",
-        "line": 292
-      }
-    },
-    "ceb558f68db350160cab80470489e1faa85797c6f38d7a1bbd2410b65c81cb7e": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 300
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 301
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 302
-      },
-      "32": {
-        "filename": "CarFactory.code",
-        "line": 303
-      },
-      "48": {
-        "filename": "CarFactory.code",
-        "line": 304
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 307
-      },
-      "64": {
-        "filename": "CarFactory.code",
-        "line": 308
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 309
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 310
-      },
-      "96": {
-        "filename": "CarFactory.code",
-        "line": 311
-      },
-      "112": {
-        "filename": "CarFactory.code",
-        "line": 312
-      },
-      "128": {
-        "filename": "CarFactory.code",
-        "line": 316
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 317
-      },
-      "152": {
-        "filename": "CarFactory.code",
-        "line": 318
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 319
-      },
-      "184": {
-        "filename": "CarFactory.code",
-        "line": 320
-      },
-      "200": {
-        "filename": "CarFactory.code",
-        "line": 321
-      },
-      "216": {
-        "filename": "CarFactory.code",
-        "line": 322
-      },
-      "232": {
-        "filename": "CarFactory.code",
-        "line": 323
-      },
-      "256": {
-        "filename": "CarFactory.code",
-        "line": 324
-      },
-      "272": {
-        "filename": "CarFactory.code",
-        "line": 325
-      },
-      "280": {
-        "filename": "CarFactory.code",
-        "line": 326
-      }
-    },
-    "e6b7832575115694f9328b15bc44d7ea75b66ef1c5d8b6ced2ea04d68ca4a7f3": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 228
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 229
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 230
-      },
-      "48": {
-        "filename": "CarFactory.code",
-        "line": 231
-      },
-      "64": {
-        "filename": "CarFactory.code",
-        "line": 232
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 233
-      },
-      "88": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 58
-      },
-      "96": {
-        "filename": "CarFactory.code",
-        "line": 239
-      },
-      "112": {
-        "filename": "CarFactory.code",
-        "line": 242
-      },
-      "120": {
-        "filename": "CarFactory.code",
-        "line": 243
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 246
-      }
-    },
-    "ee24ee95c283169558fa3edd470cf4ba5106acc33b0cbc4450369f7786d1d3d9": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 381
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 382
-      },
-      "24": {
-        "filename": "CarFactory.code",
-        "line": 383
-      },
-      "32": {
-        "filename": "CarFactory.code",
-        "line": 256
-      },
-      "48": {
-        "filename": "CarFactory.code",
-        "line": 257
-      },
-      "72": {
-        "filename": "CarFactory.code",
-        "line": 258
-      },
-      "88": {
-        "filename": "CarFactory.code",
-        "line": 259
-      },
-      "96": {
-        "filename": "CarFactory.code",
-        "line": 260
-      },
-      "112": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 68
-      },
-      "128": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 68
-      },
-      "136": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 69
-      },
-      "160": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 69
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 270
-      }
-    },
-    "ef389fbb55abf612493d9df3e388c7baec83366141d48f451c9b9cd252339a74": {
-      "0": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 51
-      },
-      "56": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 51
-      },
-      "64": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 51
-      },
-      "80": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 52
-      },
-      "88": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 52
-      },
-      "96": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "104": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "264": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "272": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "280": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "288": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "296": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "304": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 53
-      },
-      "320": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "328": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "352": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "360": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "544": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "568": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "576": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "584": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      },
-      "592": {
-        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
-        "line": 54
-      }
-    },
-    "ef55cc613b4ad284ec2a51295feae0e312c0859da8fcdc74673bd67d9c8e1c6e": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 539
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 540
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 541
-      },
-      "64": {
-        "filename": "CarFactory.code",
-        "line": 542
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 545
-      },
-      "88": {
-        "filename": "CarFactory.code",
-        "line": 546
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 547
-      },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 548
-      }
-    },
-    "f1028554430e1fd832332663f8976ea793c06c6ed7c4e29e0618a65bc3c8e404": {
-      "0": {
-        "filename": "CarFactory.code",
-        "line": 510
-      },
-      "8": {
-        "filename": "CarFactory.code",
-        "line": 511
-      },
-      "56": {
-        "filename": "CarFactory.code",
-        "line": 512
-      },
-      "64": {
-        "filename": "CarFactory.code",
-        "line": 513
-      },
-      "80": {
-        "filename": "CarFactory.code",
-        "line": 516
-      },
-      "88": {
-        "filename": "CarFactory.code",
-        "line": 517
-      },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 518
-      },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 519
-      },
-      "160": {
-        "filename": "CarFactory.code",
-        "line": 522
-      },
-      "168": {
-        "filename": "CarFactory.code",
-        "line": 523
-      },
-      "216": {
-        "filename": "CarFactory.code",
-        "line": 524
-      },
-      "224": {
-        "filename": "CarFactory.code",
-        "line": 525
-      },
-      "240": {
-        "filename": "CarFactory.code",
-        "line": 528
-      },
-      "248": {
-        "filename": "CarFactory.code",
-        "line": 529
-      },
-      "296": {
-        "filename": "CarFactory.code",
-        "line": 530
-      },
-      "304": {
-        "filename": "CarFactory.code",
-        "line": 531
-      }
-    },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "CarFactory.code",
-        "line": 389
+        "line": 633
       },
       "16": {
         "filename": "CarFactory.code",
-        "line": 390
+        "line": 634
       }
     },
-    "f9c5880e6392bcd27c4ced818d0abcd57ab36904a2e7fbaad752a1b847344023": {
+    "fe4c936a8c4a5d73250646659da5649ee79d4c3c2d95fd642f90a5ebcadf9f41": {
       "0": {
-        "filename": "CarFactory.code",
-        "line": 506
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 83
       },
       "8": {
-        "filename": "CarFactory.code",
-        "line": 507
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 83
       },
       "56": {
-        "filename": "CarFactory.code",
-        "line": 508
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 83
       },
       "64": {
-        "filename": "CarFactory.code",
-        "line": 509
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 83
       },
       "80": {
-        "filename": "CarFactory.code",
-        "line": 535
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 84
       },
       "88": {
-        "filename": "CarFactory.code",
-        "line": 536
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
       },
-      "136": {
-        "filename": "CarFactory.code",
-        "line": 537
+      "96": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
       },
-      "144": {
-        "filename": "CarFactory.code",
-        "line": 538
+      "256": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "264": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "272": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "280": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "288": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "296": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 85
+      },
+      "312": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "320": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "336": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "344": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "352": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "368": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "376": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "400": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "408": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "416": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "440": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "456": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "464": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "512": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "520": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "528": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "536": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "544": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "552": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "560": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "568": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "576": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
+      },
+      "592": {
+        "filename": "../contracts/CarFactoryAndWorker/CarFactory.tsol",
+        "line": 86
       }
     }
   }

@@ -12,6 +12,14 @@
 			]
 		},
 		{
+			"name": "deployAccountForWorker",
+			"inputs": [
+				{"name":"_initBalance","type":"uint128"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "getAddress",
 			"inputs": [
 				{"name":"_accountAddress","type":"address"}
@@ -23,8 +31,8 @@
 		{
 			"name": "sendOffer",
 			"inputs": [
-				{"name":"offer","type":"string"},
-				{"name":"_destAddress","type":"address"}
+				{"name":"_accountAddress","type":"address"},
+				{"name":"offer","type":"string"}
 			],
 			"outputs": [
 			]
@@ -32,6 +40,7 @@
 		{
 			"name": "workerAcceptOffer",
 			"inputs": [
+				{"name":"_answer","type":"string"}
 			],
 			"outputs": [
 			]
@@ -72,6 +81,39 @@
 			],
 			"outputs": [
 			]
+		},
+		{
+			"name": "AccountDeployed",
+			"inputs": [
+				{"name":"accountAddress","type":"address"},
+				{"name":"ownerAddress","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "AnswerFromWorker",
+			"inputs": [
+				{"name":"answer","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "OfferDenied",
+			"inputs": [
+				{"name":"msg","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "OfferGranted",
+			"inputs": [
+				{"name":"msg","type":"string"}
+			],
+			"outputs": [
+			]
 		}
 	],
 	"fields": [
@@ -80,6 +122,7 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"owner","type":"address"},
 		{"name":"factoryAddress","type":"address"},
-		{"name":"workerContractCode","type":"cell"}
+		{"name":"workerContractCode","type":"cell"},
+		{"name":"months","type":"uint32"}
 	]
 }
