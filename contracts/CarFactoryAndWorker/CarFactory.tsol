@@ -8,12 +8,16 @@ pragma AbiHeader pubkey;
 contract CarFactory {
     address public owner;
     address public factoryAddress;
-    uint128 constant MIN_CONTRACT_BALANCE = 100 ever;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static workerContractCode;
+    uint32 months;
 
     event AddressReturn(address userAddress);
     event SendingOffer(string msg);
     event AccountDeployed(address accountAddress, address ownerAddress);
+    event AnswerFromWorker(string answer);
+    event OfferDenied(string msg);
+    event OfferGranted(string msg);
 
     constructor(
         address _owner
@@ -28,10 +32,10 @@ contract CarFactory {
         _;
     }
 
-    function deployAccountForWorker() external {
-        require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
+    function deployAccountForWorker(uint128 _initBalance) external {
+//        require(msg.value >= MIN_CONTRACT_BALANCE + 0.2 ever, 101);
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-        deployNewContract(msg.sender);
+        deployNewContract(_initBalance,msg.sender);
    
             msg.sender.transfer({value:0, flag:128});
            
@@ -54,53 +58,71 @@ contract CarFactory {
         return address(tvm.hash(accountInitState));
     }
 
-    function deployNewContract(address _ownerAddress) internal {
+    function deployNewContract(uint128 _initBalance, address _ownerAddress) internal {
         TvmCell stateInit = buildInitParams(_ownerAddress);
 
         address accountAddress = new Workers{
                 stateInit: stateInit,
                 code: workerContractCode,
-                value: 1 ever
+                value: 0.1 ever
 
-        }(workerContractCode);
+        }(_initBalance, workerContractCode);
         emit AccountDeployed(accountAddress, _ownerAddress);
     }
 
+    function setMonths(uint32 _number) internal {
+        months = _number;
+    }
+
+    function getMonths() internal view returns(uint32) {
+        return months;
+    }
 
     //function to send offer to the worker.
-    function sendOffer(string offer, address _destAddress) public {
+    function sendOffer(address _accountAddress, string offer) public {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         offer = "Will you take this work-offer?";
         emit SendingOffer(offer);
-       Workers(_destAddress).receiveOffer(offer);
+       Workers(getAddress(_accountAddress)).receiveOffer{value:0, flag:128}(offer, owner, _accountAddress);
     }
 
     //callback of worker accepts the offer or not.
-    function workerAcceptOffer() public {
-
+    function workerAcceptOffer(string _answer) public {
+        emit AnswerFromWorker(_answer);
+        if(_answer == "YES") {
+            /*TODO: setup an internal function to check working time(to give out salary after a month),
+                and check numbers of cars that worker has made(to calculate exact salary)
+            */
+            emit OfferGranted("OFFER GRANTED, CHECK SALARY");
+            sendSalary(5, 100);
+        }else {
+            emit OfferDenied("OFFER DENIED");
+        }
     }
+
+    function sendSalary(uint32 _numberOfCars, uint32 _pricePerCar) public {
+        uint128 salary = _numberOfCars * _pricePerCar;
+        Workers(getAddress())
+    }
+
 
     //TODO : set up onBounce to check two things.
     // 1) check if worker contract exists
     // 2) if it doesn't, begin internal-deploy 
     //      and recall the function(ex. offer)
 
-    // onBounce(TvmSlice slice) external {
-    //     TvmSlice newSlice = slice.loadRef().toSlice();
-    //     // uint32 functionId = newSlice.decode(uint32);
-    //     uint32 functionId = newSlice.load(uint32);
-
-    //     if(functionId == tvm.functionId(Workers.receiveOffer)) {
-    //         (string _offer) = newSlice.loadFunctionParams(Workers.receiveOffer);
-    //     }
-    // }
-
     onBounce(TvmSlice body) external {
         TvmSlice newSlice = body.loadRef().toSlice();
         uint32 functionId = newSlice.decode(uint32); 
         
         if(functionId == tvm.functionId(Workers.receiveOffer)) {
-            (string _offer) = newSlice.decodeFunctionParams(Workers.receiveOffer);
+            (string _offer, address _initialSender, address _owner)
+            = newSlice.decodeFunctionParams(Workers.receiveOffer);
+            deployNewContract(100,_owner);
+            Workers(getAddress(_owner)).receiveOffer{value:0, flag:128}(_offer, owner, _owner);
         }
+
+
+
     }
 }

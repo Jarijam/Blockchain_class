@@ -18,11 +18,11 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 21
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 25
 ACCEPT
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 22
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 26
 SETGLOB 10
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 23
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 27
 MYADDR
 SETGLOB 11
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
@@ -40,11 +40,19 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 31
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 35
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDU 128
 ENDS
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
-	CALL $deployAccountForWorker_e1c982dc_internal_macro$
+	CALL $deployAccountForWorker_b5d929b1_internal_macro$
 }
 DROP
 CALLREF {
@@ -52,27 +60,17 @@ CALLREF {
 }
 THROW 0
 
-.macro deployAccountForWorker_e1c982dc_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 32
-DEPTH
-ADDCONST -2
-PICK
-PUSHINT 100000000000
-PUSHINT 200000000
-ADD
-UFITS 128
-GEQ
-THROWIFNOT 101
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 33
-PUSHINT 100000000000
+.macro deployAccountForWorker_b5d929b1_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 37
+PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 34
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 38
 GETGLOB 9
 CALLREF {
-	CALL $deployNewContract_db9f460f_internal_macro$
+	CALL $deployNewContract_aa162bf3_internal_macro$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 36
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 40
 GETGLOB 9
 NEWC
 STSLICECONST x62_
@@ -89,7 +87,7 @@ SENDRAWMSG
 CALL $buildInitParams_a693fe3d_internal_macro$
 
 .macro buildInitParams_a693fe3d_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 41
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 45
 GETGLOB 2
 NEWC
 STU 256
@@ -128,7 +126,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 52
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 56
 OVER
 PUSHCONT {
 	LDREF
@@ -178,11 +176,11 @@ THROW 0
 CALL $getAddress_ae22c57d_internal_macro$
 
 .macro getAddress_ae22c57d_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 53
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 57
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 54
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 58
 HASHCU
 NEWC
 STSLICECONST x801_
@@ -191,31 +189,33 @@ ENDC
 CTOS
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
-.globl	deployNewContract_db9f460f_internal
-.type	deployNewContract_db9f460f_internal, @function
-CALL $deployNewContract_db9f460f_internal_macro$
+.globl	deployNewContract_aa162bf3_internal
+.type	deployNewContract_aa162bf3_internal, @function
+CALL $deployNewContract_aa162bf3_internal_macro$
 
-.macro deployNewContract_db9f460f_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 58
+.macro deployNewContract_aa162bf3_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 62
 DUP
 CALLREF {
 	CALL $buildInitParams_a693fe3d_internal_macro$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 60
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 64
 GETGLOB 12
-XCPU S1, S0
+ROLL 3
+ROT
+DUP
 HASHCU
 NEWC
 STSLICECONST x801_
 STU 256
 ENDC
 CTOS
-ROTREV
-PUSH S2
+ROLLREV 3
+PUSH S3
 NEWC
 STSLICECONST x62_
 STSLICE
-PUSHINT 2949852426645541256083542794369173188247555
+PUSHINT 2803819077499249229031122585109857988247555
 STUR 143
 OVER
 CALLREF {
@@ -241,12 +241,13 @@ CALLREF {
 	BLKDROP 3
 }
 STREF
-STSLICECONST x0e45748dc_
+STSLICECONST x21db0348c_
+STU 128
 STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 66
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 70
 PUSHSLICE xc0000000000000000000000001
 NEWC
 STSLICE
@@ -264,6 +265,24 @@ PUSHINT 0
 SENDRAWMSG
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
+.globl	setMonths_f1911717_internal
+.type	setMonths_f1911717_internal, @function
+CALL $setMonths_f1911717_internal_macro$
+
+.macro setMonths_f1911717_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 74
+SETGLOB 13
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.globl	getMonths_9b4f19c6_internal
+.type	getMonths_9b4f19c6_internal, @function
+CALL $getMonths_9b4f19c6_internal_macro$
+
+.macro getMonths_9b4f19c6_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 78
+GETGLOB 13
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
 .macro sendOffer
 DROP
 GETGLOB 6
@@ -273,23 +292,20 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 71
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 82
 OVER
 PUSHCONT {
-	LDREF
 	LDREF
 	ENDS
 	CTOS
 }
-PUSHCONT {
-	LDREF
-}
-IFELSE
+IF
 LDMSGADDR
+LDREF
 ENDS
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
-	CALL $sendOffer_204e1c90_internal_macro$
+	CALL $sendOffer_e1f34bf9_internal_macro$
 }
 DROP
 CALLREF {
@@ -297,22 +313,22 @@ CALLREF {
 }
 THROW 0
 
-.globl	sendOffer_204e1c90_internal
-.type	sendOffer_204e1c90_internal, @function
-CALL $sendOffer_204e1c90_internal_macro$
+.globl	sendOffer_e1f34bf9_internal
+.type	sendOffer_e1f34bf9_internal, @function
+CALL $sendOffer_e1f34bf9_internal_macro$
 
-.macro sendOffer_204e1c90_internal_macro
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 72
-PUSHINT 100000000000
+.macro sendOffer_e1f34bf9_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 83
+DROP
+PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 73
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 84
 PUSHREF {
 	.blob x57696c6c20796f752074616b65207468697320776f726b2d6f666665723f
 }
-POP S2
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 74
-OVER
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 85
+DUP
 PUSHSLICE xc0000000000000000000000000536929e1
 NEWC
 STSLICE
@@ -320,15 +336,31 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 75
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 86
+OVER
+GETGLOB 10
+SWAP2
+SWAP
+CALLREF {
+	CALL $getAddress_ae22c57d_internal_macro$
+}
 NEWC
 STSLICECONST x62_
 STSLICE
-PUSHINT 42045022170482489768618347945393405442361914383150
-STUR 167
+PUSHINT 1
+STUR 111
+ROLLREV 3
+NEWC
+STSLICECONST x6b27b504
 STREF
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+STBREFR
 ENDC
-PUSHINT 0
+PUSHPOW2 7
 SENDRAWMSG
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
@@ -341,11 +373,12 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 79
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 90
+LDREF
 ENDS
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 CALLREF {
-	CALL $workerAcceptOffer_39b2820d_internal_macro$
+	CALL $workerAcceptOffer_10f32901_internal_macro$
 }
 DROP
 CALLREF {
@@ -353,11 +386,55 @@ CALLREF {
 }
 THROW 0
 
-.globl	workerAcceptOffer_39b2820d_internal
-.type	workerAcceptOffer_39b2820d_internal, @function
-CALL $workerAcceptOffer_39b2820d_internal_macro$
+.globl	workerAcceptOffer_10f32901_internal
+.type	workerAcceptOffer_10f32901_internal, @function
+CALL $workerAcceptOffer_10f32901_internal_macro$
 
-.macro workerAcceptOffer_39b2820d_internal_macro
+.macro workerAcceptOffer_10f32901_internal_macro
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 91
+DUP
+PUSHSLICE xc00000000000000000000000004a9d19f2
+NEWC
+STSLICE
+STREF
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 92
+HASHCU
+PUSHREF {
+	.blob x594553
+}
+HASHCU
+EQUAL
+PUSHCONT {
+	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 96
+	PUSHREF {
+		.blob x4f46464552204752414e5445442c20434845434b2053414c415259
+	}
+	PUSHSLICE xc00000000000000000000000003d635537
+}
+PUSHCONT {
+	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 98
+	PUSHREF {
+		.blob x4f464645522044454e494544
+	}
+	PUSHSLICE xc00000000000000000000000003093f881
+}
+IFELSE
+NEWC
+STSLICE
+STREF
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+
+.globl	calculateSalary_624ea26a_internal
+.type	calculateSalary_624ea26a_internal, @function
+CALL $calculateSalary_624ea26a_internal_macro$
+
+.macro calculateSalary_624ea26a_internal_macro
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
 
 .macro on_bounce_macro
@@ -368,23 +445,62 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 99
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 113
 PLDREF
 CTOS
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 100
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 114
 DUP
 LDU 32
 POP S2
-.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 102
-PUSHINT 653351726
+.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 116
+PUSHINT 1797764356
 EQUAL
 PUSHCONT {
-	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 103
+	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 117
+	DUP
+	LDREF
+	LDMSGADDR
 	LDREF
 	ENDS
-	DROP
+	CTOS
+	LDMSGADDR
+	ENDS
 	PUSHSLICE x8_
+	POP S4
+	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 119
+	PUSHINT 100
+	OVER
+	CALLREF {
+		CALL $deployNewContract_aa162bf3_internal_macro$
+	}
+	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 120
+	DUP
+	GETGLOB 10
+	ROLL 4
+	ROLL 3
+	CALLREF {
+		CALL $getAddress_ae22c57d_internal_macro$
+	}
+	NEWC
+	STSLICECONST x62_
+	STSLICE
+	PUSHINT 1
+	STUR 111
+	ROLLREV 3
+	NEWC
+	STSLICECONST x6b27b504
+	STREF
+	STSLICE
+	SWAP
+	NEWC
+	STSLICE
+	STBREFR
+	STBREFR
+	ENDC
+	PUSHPOW2 7
+	SENDRAWMSG
 	.loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
+	DROP
 }
 IF
 .loc ../contracts/CarFactoryAndWorker/CarFactory.tsol, 0
@@ -406,7 +522,9 @@ ENDS
 CTOS
 LDMSGADDR
 LDREF
+LDU 32
 ENDS
+SETGLOB 13
 SETGLOB 12
 SETGLOB 11
 SETGLOB 10
@@ -436,6 +554,8 @@ PUSHCONT {
 		}
 	}
 	IFNOT
+	PUSHINT 0
+	SETGLOB 13
 	SETGLOB 12
 	SETGLOB 11
 	SETGLOB 10
@@ -452,6 +572,7 @@ IFREFELSE {
 }
 
 .macro c7_to_c4
+GETGLOB 13
 GETGLOB 12
 GETGLOB 11
 GETGLOB 10
@@ -462,10 +583,11 @@ STU 256
 STU 64
 STONE
 STSLICE
-ROTREV
+ROLLREV 3
 NEWC
 STSLICE
 STREF
+STU 32
 STBREFR
 ENDC
 POPROOT
@@ -626,14 +748,26 @@ THROW 0
 
 .macro public_function_selector
 DUP
-PUSHINT 1236325968
+PUSHINT 1026043518
 LEQ
 IFJMPREF {
 	DUP
-	PUSHINT 631169811
+	PUSHINT 679972873
+	EQUAL
+	IFJMPREF {
+		CALL $workerAcceptOffer$
+	}
+	DUP
+	PUSHINT 795707584
 	EQUAL
 	IFJMPREF {
 		CALL $deployAccountForWorker$
+	}
+	DUP
+	PUSHINT 927833698
+	EQUAL
+	IFJMPREF {
+		CALL $sendOffer$
 	}
 	DUP
 	PUSHINT 1026043518
@@ -641,6 +775,11 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $factoryAddress$
 	}
+}
+DUP
+PUSHINT 1594609630
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 1196840156
 	EQUAL
@@ -648,27 +787,10 @@ IFJMPREF {
 		CALL $constructor$
 	}
 	DUP
-	PUSHINT 1236325968
-	EQUAL
-	IFJMPREF {
-		CALL $sendOffer$
-	}
-}
-DUP
-PUSHINT 1594609630
-LEQ
-IFJMPREF {
-	DUP
 	PUSHINT 1493111345
 	EQUAL
 	IFJMPREF {
 		CALL $getAddress$
-	}
-	DUP
-	PUSHINT 1554860611
-	EQUAL
-	IFJMPREF {
-		CALL $workerAcceptOffer$
 	}
 	DUP
 	PUSHINT 1594609630

@@ -1,6 +1,7 @@
 pragma ever-solidity >= 0.62.0;
 
 import "./CarFactory.tsol";
+import "locklift/src/console.tsol";
 
 pragma AbiHeader expire;
 pragma AbiHeader pubkey;
@@ -9,19 +10,37 @@ contract Workers {
 
     address static factoryAddress;
     address static owner;
+    address static worker;
     TvmCell public workerContractCode;
-
+    uint128 constant MIN_CONTRACT_BALANCE = 200 ever;
+    uint128 public salary;
+    uint128 public money;
     string offer;
-    event OfferFromFactory(string offer);
+    string offerAnswer;
 
-    constructor(TvmCell _workerContractCode) public {
+    event OfferFromFactory(string offer, address sender);
+
+    constructor(uint128 _initBalance, TvmCell _workerContractCode) public {
         tvm.accept();
+        salary = _initBalance;
         workerContractCode = _workerContractCode;
     }
 
-    function receiveOffer(string _offer) public {
-        //revert(1001);
+    function receiveOffer(string _offer,address _initialSender, address _owner) external {
+        require(factoryAddress == msg.sender, 201);
         offer = _offer;
-        emit OfferFromFactory(offer);    
+        emit OfferFromFactory(offer, msg.sender);
+        _initialSender.transfer({value: 0, flag: 128});
+
+    }
+
+    function sendOfferAnswer(string _answer) external {
+        offerAnswer = _answer;
+        CarFactory(factoryAddress).workerAcceptOffer(_answer);
+    }
+
+    function receivedSalary(uint128 _salary) external {
+
+        money += _salary;
     }
 }

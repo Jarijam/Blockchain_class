@@ -6,6 +6,7 @@
 		{
 			"name": "constructor",
 			"inputs": [
+				{"name":"_initBalance","type":"uint128"},
 				{"name":"_workerContractCode","type":"cell"}
 			],
 			"outputs": [
@@ -14,7 +15,24 @@
 		{
 			"name": "receiveOffer",
 			"inputs": [
-				{"name":"_offer","type":"string"}
+				{"name":"_offer","type":"string"},
+				{"name":"_initialSender","type":"address"},
+				{"name":"_owner","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sendOfferAnswer",
+			"inputs": [
+				{"name":"_answer","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedSalary",
+			"inputs": [
 			],
 			"outputs": [
 			]
@@ -26,17 +44,27 @@
 			"outputs": [
 				{"name":"workerContractCode","type":"cell"}
 			]
+		},
+		{
+			"name": "salary",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"salary","type":"uint128"}
+			]
 		}
 	],
 	"data": [
 		{"key":1,"name":"factoryAddress","type":"address"},
-		{"key":2,"name":"owner","type":"address"}
+		{"key":2,"name":"owner","type":"address"},
+		{"key":3,"name":"worker","type":"address"}
 	],
 	"events": [
 		{
 			"name": "OfferFromFactory",
 			"inputs": [
-				{"name":"offer","type":"string"}
+				{"name":"offer","type":"string"},
+				{"name":"sender","type":"address"}
 			],
 			"outputs": [
 			]
@@ -48,7 +76,10 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"factoryAddress","type":"address"},
 		{"name":"owner","type":"address"},
+		{"name":"worker","type":"address"},
 		{"name":"workerContractCode","type":"cell"},
-		{"name":"offer","type":"string"}
+		{"name":"salary","type":"uint128"},
+		{"name":"offer","type":"string"},
+		{"name":"offerAnswer","type":"string"}
 	]
 }
